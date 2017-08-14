@@ -1,3 +1,0 @@
-[submodule "generate-crud"]
-	path = generate-crud
-	url = https://github.com/mysiar/generate-crud.git
