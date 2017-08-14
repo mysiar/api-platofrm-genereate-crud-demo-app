@@ -23,6 +23,7 @@ import bookRoutes from './routes/book';
 import reviewRoutes from './routes/review';
 import HomePage from './HomePage';
 import TopBar from './TopBar';
+import NotFound from './NotFound';
 
 
 const store = createStore(
@@ -47,6 +48,7 @@ ReactDOM.render(
               window.location.pathname.includes('index.html') &&
               <Redirect to="/"/> }
 
+            <Route component={NotFound}/>
           </Switch>
         </div>
       </Router>
