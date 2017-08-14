@@ -7,6 +7,9 @@ class HomePage extends Component {
         <h3>API Platform - generate crud - demo app</h3>
         <div>
           <ul>
+            <li>
+              <a href="https://github.com/mysiar/api-platofrm-genereate-crud-demo-app">GitHub</a>
+            </li>
             <li>React front app demo for&nbsp;
               <a href="https://api-platform.com/">API Platform</a>
             </li>
