@@ -2,6 +2,8 @@
 
 Version: 1.0.0
 
+Working demo: https://api-front.geomysiar.pl/
+
 Requires:
  * node >= 6
  * yarn
