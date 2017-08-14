@@ -10,9 +10,8 @@ class TopBar extends Component {
               <a className="navbar-brand" href="/">API Platform - generate crud - demo app</a>
             </div>
             <ul className="nav navbar-nav">
-              <li><a href="/books/">Books</a></li>
-              <li><a href="/reviews/">Reviews</a></li>
-
+              <li><Link to="/books/">Books</Link></li>
+              <li><Link to="/reviews/">Reviews</Link></li>
             </ul>
           </div>
         </nav>
