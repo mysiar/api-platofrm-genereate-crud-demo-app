@@ -61,7 +61,6 @@ typings/
 
 
 /generate_crud
-/generate-crud/
 /build/
 /public_html/*
 !/public_html/.gitkeep
