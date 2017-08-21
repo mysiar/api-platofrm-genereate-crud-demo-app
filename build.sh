@@ -3,7 +3,9 @@
 echo "### Generating React API Platform components"
 ./generate_crud https://api-2.0.geomysiar.pl ./build/
 
-rm -rf public_html/*
+echo "### Cleaning up public_html"
+rm -rf public_html/static
+
 mkdir -p tmp
 echo "### Creating App skeleton"
 cp -R skeleton/* tmp/
