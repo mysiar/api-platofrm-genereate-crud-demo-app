@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class HomePage extends Component {
   render() {
     return (
-      <div className="">
+      <div className="container">
         <h3>API Platform - generate crud - demo app</h3>
         <div>
           <ul>
