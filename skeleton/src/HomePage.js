@@ -3,7 +3,11 @@ import React, {Component} from 'react';
 class HomePage extends Component {
   render() {
     return (
+<<<<<<< HEAD
       <div className="container">
+=======
+      <div>
+>>>>>>> 254f801ec10824fe092c85fd44e24c922cd1f0a6
         <h3>API Platform - generate crud - demo app</h3>
         <div>
           <ul>

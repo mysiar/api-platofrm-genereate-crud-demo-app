@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "### Generating React API Platform components"
-./generate_crud https://api-2.0.geomysiar.pl ./build/
+node ./generate_crud https://api-2.0.geomysiar.pl ./build/
 
 echo "### Cleaning up public_html"
 rm -rf public_html/static
